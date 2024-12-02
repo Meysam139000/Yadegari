@@ -1,3 +1,19 @@
+#python 2.7.15
+import os
+os.system("pip install colored")
+os.system("pip install colorama")
+import colored                                                  
+import colorama                                                 
+import datetime
+from colored import fg, bg, attr
+from colorama import Fore, Back, Style                          
+# rang
+red='\033[31m'
+green='\033[32m'
+blue='\033[36m'
+pink='\033[35m'
+rang='\033[34m'
+os.system("clear")
 print("**In ThE NaMe Of GoD**")
 print("GoD KLR * Shad , Rubika")
 print("DaLtOn ErRoR,ShaHzAdeH TiKaFiL")
