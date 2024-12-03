@@ -2,6 +2,10 @@
 import os
 os.system("pip install colored")
 os.system("pip install colorama")
+os.system("pip install datetime")
+#importing
+import time                                                     
+import sys                                                      
 import colored                                                  
 import colorama                                                 
 import datetime
@@ -13,18 +17,34 @@ green='\033[32m'
 blue='\033[36m'
 pink='\033[35m'
 rang='\033[34m'
+
+
 os.system("clear")
-print("**In ThE NaMe Of GoD**")
+print(f"{green} ")
+print("In ThE NaMe Of GoD")
+print(f"{green} ")
 print("GoD KLR * Shad , Rubika")
+print(f"{green} ")
 print("DaLtOn ErRoR,ShaHzAdeH TiKaFiL")
-print("          *****          ")
+print(f"{green} ")
+print("          *          ")
+print(f"{green} ")
 print("The BeSt KLR HoSeIn DaNiEL RySoN")
+print(f"{red} ")
 print("Bemanad Yadegar Shayad Fardayi Nabashad")
+print(f"{red} ")
 print("1403 - 2024")
+print(f"{red} ")
 print("     =~=~=~=~=~=~=~=~=~=~=     ")
-print("***Taqdim : Bax Carter , Makan Tomar , Bax Mordegan , Bax Tomar , Beni Carter , Daniel Rayson , Bax Begacifer , Mmd Jena , Allah Tikafil , DaLtoN ErRor , Mr Mmd Reporter***")
-print("~~~Record To Filtering : Fil account 'rubika' 7 Ellie 3 Min~~~")
-print("•I'M ' 17 Age•")
-print("      *****     ")
-print(".<script.Yadegari>.")
-print("∅I live in the city of Tabriz∅")
+print (Fore.BLUE + "")
+x = """
+*Taqdim : Bax Carter , Makan Tomar , Bax Mordegan , Bax Tomar , Beni Carter , Daniel Rayson , Bax Begacifer , Mmd Jena , Allah Tikafil , DaLtoN ErRor , Mr Mmd Reporter*
+     ~Record To Filtering : Fil account 'rubika' 7 Ellie 3 Min~
+ •I'M ' 17 Age•
+           *   
+       .<script.Yadegari>.
+     ∅I live in the city of Tabriz∅ """
+for c in x:
+    sys.stdout.write(c)
+    sys.stdout.flush()
+    time.sleep(0.02)
